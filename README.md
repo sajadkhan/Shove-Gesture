@@ -3,7 +3,7 @@ A custom gesture recogniser to recognise tilt/shove gesture. (Moving two paralle
 ## How to Use
 
 ### Add Gesture to your view while setting a selector which will be called when it recognized
-```
+```Objective-C
 ShoveGestureRecognizer *shoveRecognizer = [[ShoveGestureRecognizer alloc] initWithTarget:self action:@selector(respondToShoveGesture:)];
     
 shoveRecognizer.delegate = self;
